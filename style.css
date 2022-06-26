@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
+
+h1 {
+	font-size: 75px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 40px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#home {
+	background-color: #f2f2f2;
+	width: 80%;
+	border-radius: 25px;
+  padding: 15px;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	margin: 25px;
+	justify-content: space-around;
+}
+
+body {
+	background-color: #dedede;
+	font-family: "DM Sans", sans-serif;
+}
+
+p,h4,ol,ul,li {
+	color: #2e1c2b;
+	margin: 0px;
+	padding: 0px;
+}
+
+h4 {
+	font-family: "DM Sans", sans-serif;
+}
+
+h3{
+	color: #dedede;
+	font-family: "DM Sans", sans-serif;
+	text-align: center;
+}
+
+h5 {
+	color: #32533d;
+	font-family: "DM Sans", sans-serif;
+	text-align: center;
+}
+
+table, td, th, tr {
+	color: #2e1c2b;
+	border-weight: 5px;
+	border-style: solid;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+.logo {
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: -225px;
+}
+
+a {
+	text-decoration: none;
+	color: #2e1c2b;
+	font-size: 20px;
+}
+
+a:hover {
+	color: #32533d;
+}
+
+.socials {
+	width: 25px;
+	display: inline-block;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.links {
+	font-size: 20px;
+	display: inline-block;
+	align-items: center;
+	justify-content: space-around;
+	padding: 10px;
+  color: #2e1c2b;
+}
+
+.links1 {
+	font-size: 1em;
+	display: inline-block;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+  color: #b59da4;
+}
+
+.links1:hover {
+	font-size: 1em;
+	display: inline-block;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+  color: #dedede;
+}
+
+.light {
+  color: #dedede;
+}
+
+.about-me {
+  display: block;
+  background-color: #2e1c2b;
+  color: #dedede;
+  padding: 10px;
+  margin: 25px;
+  width: 80%;
+  border-radius: 25px;
+}
+
+.main-footer {
+  background-color: #2e1c2b;
+  color: #dedede;
+  width: 80%;
+  border-radius: 25px;
+  margin: 25px;
+  padding: 10px;
+}
+
+.about-me1 {
+  width: 50%;
+}
+
+.pink {
+  color: #b59da4;
+}
+
+figure {
+  display: inline-block;
+}
+
+figcaption {
+  color: #b59da4;
+}
+
+.green {
+  color: #32533d;
+}
+
+.my-work {
+  background-color: #f2f2f2;
+	width: 80%;
+	border-radius: 25px;
+  padding: 15px;
+}
