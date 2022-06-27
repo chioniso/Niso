@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
- star.svg{
+star.svg {
       fill: #2e1c2b;
     }
-    @media (prefers-color-scheme: dark) {
-       {
+@media (prefers-color-scheme: dark) {
+    star.svg{
         fill: #f2f2f2;
       }
     }
