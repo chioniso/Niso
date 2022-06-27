@@ -16,7 +16,7 @@ h2 {
 	background-color: #f2f2f2;
 	width: 80%;
 	border-radius: 25px;
-  padding: 15px;
+    padding: 15px;
 }
 
 .navigation {
@@ -136,7 +136,7 @@ a:hover {
 }
 
 .about-me1 {
-  width: 50%;
+width: 50%;
 }
 
 .pink {
@@ -156,8 +156,25 @@ figcaption {
 }
 
 .my-work {
-  background-color: #f2f2f2;
-	width: 80%;
+    background-color: #f2f2f2;
+    max-width: 80%;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+@media (max-width: 40em) {
+    .aboutme {
+        width: 90%;
+    }
+    #home {
+	background-color: #f2f2f2;
+	width: 100%;
 	border-radius: 25px;
-  padding: 15px;
+    padding: 15px;
+}
+    .my-work {
+    background-color: #f2f2f2;
+    max-width: 100%;
+    border-radius: 25px;
+    padding: 15px;
 }
