@@ -24,6 +24,7 @@ h2 {
 	align-items: center;
 	margin: 25px;
 	justify-content: space-around;
+    flex-wrap: flex;
 }
 
 body {
@@ -86,13 +87,14 @@ a:hover {
 	padding: 10px;
 }
 
-.links {
+.nav-links {
 	font-size: 20px;
 	display: inline-block;
 	align-items: center;
 	justify-content: space-around;
 	padding: 10px;
-  color: #2e1c2b;
+    color: #2e1c2b;
+    min-width: fit-content;
 }
 
 .links1 {
