@@ -162,3 +162,7 @@ figcaption {
     border-radius: 25px;
     padding: 15px;
 }
+
+.gallery-img {
+    width: 100%;
+}
