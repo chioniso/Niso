@@ -163,9 +163,11 @@ figcaption {
     max-width: 80%;
     border-radius: 25px;
     padding: 15px;
+    height: 540px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .gallery-img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
 }
