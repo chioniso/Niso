@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
 h1 {
-	font-size: 75px;
+	font-size: 6em;
 	padding: 0px;
 	margin: 0px;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 3em;
 	padding: 0px;
 	margin: 0px;
 }
 
-#home {
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 18px;
+}
+
+.home {
 	background-color: #f2f2f2;
 	max-width: 80%;
 	border-radius: 25px;
@@ -80,7 +88,7 @@ a:hover {
 }
 
 .socials {
-	width: 25px;
+	width: 35px;
 	display: inline-block;
 	align-items: center;
 	justify-content: space-between;
@@ -139,7 +147,7 @@ a:hover {
 }
 
 .about-me1 {
-width: 50%;
+width: 60%;
 }
 
 .pink {
@@ -166,8 +174,4 @@ figcaption {
     height: 540px;
     overflow-y: auto;
     overflow-x: hidden;
-}
-
-.gallery-img {
-    max-width: 100%;
 }
