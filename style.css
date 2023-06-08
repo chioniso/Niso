@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
 h1 {
-	font-size: 4em;
+    font-size: 3.5em;
+    color: #2e1c2b;
 }
 
 h2 {
@@ -36,6 +37,7 @@ body {
 	font-family: "DM Sans", sans-serif;
     max-width: 100%;
 }
+
 
 p,h4,ol,ul,li {
 	color: #2e1c2b;
@@ -83,6 +85,10 @@ a:hover {
 	color: #32533d;
 }
 
+.ex1 {
+    color: #32533d;
+}
+
 .socials {
 	width: 35px;
 	display: inline-block;
@@ -107,7 +113,7 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
-  color: #b59da4;
+    color: #b59da4;
 }
 
 .links1:hover {
@@ -116,7 +122,30 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
-  color: #dedede;
+    color: #dedede;
+}
+
+.socials-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.social-element:hover {
+    width: 2em;
+    color: #32533d;
+}
+
+.socials-wrap-footer {
+    color: #b59da4;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.social-element-nav:hover {
+    width: 2em;
+    color: #b59da4;
 }
 
 .light {
@@ -135,7 +164,6 @@ a:hover {
 
 .main-footer {
   background-color: #2e1c2b;
-  color: #dedede;
   width: 80%;
   border-radius: 25px;
   margin: 25px;
@@ -170,4 +198,23 @@ figcaption {
     height: 540px;
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+.social-element-footer {
+    color: #b59da4;
+}
+
+@media all and (max-width: 500px) {
+    h1 {
+	font-size: 10vw;
+}
+    
+    h2 {
+	font-size: 9vw;
+}
+
+h3 {
+    font-size: 8vw;
+}
+
 }
