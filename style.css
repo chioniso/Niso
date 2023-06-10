@@ -165,11 +165,11 @@ a {
 	color: #2e1c2b;
 }
 
-.pink {
+.pink, .a-pink {
   color: #b59da4;
 }
 
-.pink:hover {
+.a-pink:hover {
 	color: #32533d;
 }
 
@@ -189,11 +189,12 @@ figcaption {
 	color: black;
 }
 
-.white {
+.white, .a-white {
 	color: white;
 }
 
-.white:hover {
+
+.a-white:hover {
 	color: #b59da4;
 }
 
