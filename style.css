@@ -3,10 +3,13 @@
 body {
 	margin: auto;
 	text-align: center;
+	background-color: #dedede;
+	font-family: "DM Sans", sans-serif;
+    max-width: 100%;
 }
 
 div {
-	margin: 25px;
+	margin: auto;
 }
 
 h1 {
@@ -43,12 +46,7 @@ p {
 	margin: 25px;
 	justify-content: space-around;
     flex-wrap: flex;
-}
-
-body {
-	background-color: #dedede;
-	font-family: "DM Sans", sans-serif;
-    max-width: 100%;
+	max-width: 100%;
 }
 
 
@@ -82,14 +80,6 @@ a {
 	font-size: 20px;
 }
 
-a:hover {
-	color: #32533d;
-}
-
-.ex1 {
-    color: #32533d;
-}
-
 .socials {
 	width: 35px;
 	display: inline-block;
@@ -108,22 +98,18 @@ a:hover {
     min-width: fit-content;
 }
 
-.links1 {
-	font-size: 1em;
+.footer-nav-links {
+	font-size: 20px;
 	display: inline-block;
 	align-items: center;
-	justify-content: space-between;
-	padding: 10px;
-    color: #b59da4;
-}
-
-.links1:hover {
-	font-size: 1em;
-	display: inline-block;
-	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding: 10px;
     color: white;
+    min-width: fit-content;
+}
+
+.footer-nav-links:hover {
+	color: #b59da4;
 }
 
 .socials-wrap {
@@ -133,7 +119,7 @@ a:hover {
 }
 
 .social-element:hover {
-    color: #32533d;
+    color: #b59da4;
 }
 
 .socials-wrap-footer {
@@ -141,10 +127,6 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-content: center;
-}
-
-.social-element-nav:hover {
-    color: #b59da4;
 }
 
 .skills {
@@ -157,23 +139,26 @@ a:hover {
 }
 
 .about-me {
-  display: block;
-  background-color: #2e1c2b;
-  color: #dedede;
-  padding: 15px;
-  max-width: 80%;
-  border-radius: 25px;
+ 	 display: block;
+ 	 background-color: #2e1c2b;
+ 	 color: #dedede;
+ 	 padding: 15px;
+ 	 max-width: 80%;
+  	border-radius: 25px;
 }
 
 .main-footer {
-  background-color: #2e1c2b;
-  width: 80%;
-  border-radius: 25px;
-  padding: 15px;
+	margin: auto;
+	text-align: center;
+  	background-color: #2e1c2b;
+  	width: 80%;
+  	border-radius: 25px;
+  	padding: 15px;
+
 }
 
 .about-me1 {
-width: 80%;
+	width: 80%;
 }
 
 .purple {
@@ -182,6 +167,10 @@ width: 80%;
 
 .pink {
   color: #b59da4;
+}
+
+.pink:hover {
+	color: #32533d;
 }
 
 figure {
@@ -198,6 +187,14 @@ figcaption {
 
 .black {
 	color: black;
+}
+
+.white {
+	color: white;
+}
+
+.white:hover {
+	color: #b59da4;
 }
 
 .certs {
@@ -224,9 +221,13 @@ figcaption {
     padding: 15px;
 }
 
-.social-element-footer {
-    color: #b59da4;
+.columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	list-style-type: none;
 }
+
+
 
 @media all and (max-width: 500px) {
     h1 {
@@ -241,4 +242,15 @@ h3 {
     font-size: 8vw;
 }
 
+.star {
+	display: none;
+}
+
+.navigation {
+	width: 90%;
+}
+
+.nav-links {
+	font-size: 17px;
+}
 }
