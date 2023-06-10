@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
+body {
+	margin: auto;
+	text-align: center;
+}
+
+div {
+	margin: 25px;
+}
+
 h1 {
     font-size: 3.5em;
     color: #2e1c2b;
@@ -11,14 +20,18 @@ h2 {
 
 h3 {
     font-size: 2em;
+	color:#b59da4;
+	font-family: "DM Sans", sans-serif;
+	text-align: center;
 }
 
 p {
     font-size: 18px;
+	color: white;
 }
 
 .home {
-	background-color: #f2f2f2;
+	background-color: white;
 	max-width: 80%;
 	border-radius: 25px;
     padding: 15px;
@@ -39,34 +52,22 @@ body {
 }
 
 
-p,h4,ol,ul,li {
+h4{
 	color: #2e1c2b;
-	margin: 0px;
-	padding: 0px;
+}
+
+ul, li {
+	text-align: left;
 }
 
 h4 {
 	font-family: "DM Sans", sans-serif;
 }
 
-h3{
-	color: #dedede;
-	font-family: "DM Sans", sans-serif;
-	text-align: center;
-}
-
 h5 {
 	color: #32533d;
 	font-family: "DM Sans", sans-serif;
 	text-align: center;
-}
-
-table, td, th, tr {
-	color: #2e1c2b;
-	border-weight: 5px;
-	border-style: solid;
-	border-collapse: collapse;
-	padding: 5px;
 }
 
 .logo {
@@ -122,7 +123,7 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
-    color: #dedede;
+    color: white;
 }
 
 .socials-wrap {
@@ -132,7 +133,6 @@ a:hover {
 }
 
 .social-element:hover {
-    width: 2em;
     color: #32533d;
 }
 
@@ -144,20 +144,23 @@ a:hover {
 }
 
 .social-element-nav:hover {
-    width: 2em;
     color: #b59da4;
 }
 
-.light {
-  color: #dedede;
+.skills {
+	background-color: #2e1c2b;
+	display: block;
+	padding: 15px;
+  	max-width: 80%;
+  	border-radius: 25px;
+	color: white;
 }
 
 .about-me {
   display: block;
   background-color: #2e1c2b;
   color: #dedede;
-  padding: 10px;
-  margin: 25px;
+  padding: 15px;
   max-width: 80%;
   border-radius: 25px;
 }
@@ -166,12 +169,15 @@ a:hover {
   background-color: #2e1c2b;
   width: 80%;
   border-radius: 25px;
-  margin: 25px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .about-me1 {
 width: 80%;
+}
+
+.purple {
+	color: #2e1c2b;
 }
 
 .pink {
@@ -190,14 +196,32 @@ figcaption {
   color: #32533d;
 }
 
-.my-work {
-    background-color: #f2f2f2;
+.black {
+	color: black;
+}
+
+.certs {
+    background-color: white;
     max-width: 80%;
     border-radius: 25px;
     padding: 15px;
-    height: 540px;
-    overflow-y: auto;
+}
+
+.edu-certs {
+	background-color: white;
+    max-width: 80%;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.my-work {
+	background-color: white;
+	height: 90vh;
+	overflow-y: auto;
     overflow-x: hidden;
+	max-width: 80%;
+    border-radius: 25px;
+    padding: 15px;
 }
 
 .social-element-footer {
